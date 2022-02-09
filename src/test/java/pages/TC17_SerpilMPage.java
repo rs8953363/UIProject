@@ -1,11 +1,7 @@
 package pages;
 
-import org.junit.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
 import utilities.*;
 
 import org.junit.Assert;
@@ -47,49 +43,41 @@ public class TC17_SerpilMPage {
 
             }}
 
-
-
-
-
-        System.setProperty("webdriver.chrome.driver","C:\\browserdrivers\\chromedriver_win32\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
-    }
-
-        @Given("User launches browser")
-        public void user_opens_automationpractice_web_page() {
-
-        }
-
-        @When("User navigates to url http://automationexercise.com")
-        public void user_naviagates_to_url() {
-
-        }
-
-        @When("User verifies home page is visible successfully")
-        public void user_verifies_home_page_visible() {
-
-        }
-
-        @Then("User adds products to cart")
-        public void test_user_adds_products_to_cart() {
-
-        }
-        @Then("User clicks cart button")
-        public void test_user_clicks_cart_button() {
-
-        }
-        @Then("User verifies the cart page is displayed")
-        public void test_user_verifies_cart_page_displayed() {
-
-        }
-        @When("User clicks 'X' button corresponding to particular product")
-        public void test_user_clicks_X_button() {
-
-        }
-        @Then("User verifies that product is removed from the cart")
-        public void test_user_verifies_product_removed() {
-
-        }
-    }
+//        @Given("User launches browser")
+//        public void user_opens_automationpractice_web_page() {
+//
+//        }
+//
+//        @When("User navigates to url http://automationexercise.com")
+//        public void user_naviagates_to_url() {
+//
+//        }
+//
+//        @When("User verifies home page is visible successfully")
+//        public void user_verifies_home_page_visible() {
+//
+//        }
+//
+//        @Then("User adds products to cart")
+//        public void test_user_adds_products_to_cart() {
+//
+//        }
+//        @Then("User clicks cart button")
+//        public void test_user_clicks_cart_button() {
+//
+//        }
+//        @Then("User verifies the cart page is displayed")
+//        public void test_user_verifies_cart_page_displayed() {
+//
+//        }
+//        @When("User clicks 'X' button corresponding to particular product")
+//        public void test_user_clicks_X_button() {
+//
+//        }
+//        @Then("User verifies that product is removed from the cart")
+//        public void test_user_verifies_product_removed() {
+//
+//        }
+//    }
 
 
